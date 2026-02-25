@@ -1,0 +1,89 @@
+{
+  "items": [
+    {
+      "task": "Kuba kończy endpoint resetu hasła",
+      "assignee": "Kuba",
+      "deadline": {
+        "type": "weekday",
+        "weekday": 4,
+        "days": null,
+        "day": null,
+        "month": null,
+        "year": null,
+        "hour": null,
+        "minute": null,
+        "depends_on": null
+      },
+      "deadline_iso": "2026-02-27T00:00:00",
+      "confidence": 1.0
+    },
+    {
+      "task": "Ania optymalizuje zapytania do listy zadań",
+      "assignee": "Ania",
+      "deadline": {
+        "type": "weekday",
+        "weekday": 5,
+        "days": null,
+        "day": null,
+        "month": null,
+        "year": null,
+        "hour": null,
+        "minute": null,
+        "depends_on": null
+      },
+      "deadline_iso": "2026-02-28T00:00:00",
+      "confidence": 1.0
+    },
+    {
+      "task": "Kuba wysyła dokumentację API",
+      "assignee": "Kuba",
+      "deadline": {
+        "type": "relative_days",
+        "weekday": null,
+        "days": 1,
+        "day": null,
+        "month": null,
+        "year": null,
+        "hour": null,
+        "minute": null,
+        "depends_on": null
+      },
+      "deadline_iso": "2026-02-26T22:58:38.127563",
+      "confidence": 1.0
+    },
+    {
+      "task": "Michał wdraża integrację listy zadań",
+      "assignee": "Michał",
+      "deadline": {
+        "type": "relative_days",
+        "weekday": null,
+        "days": 2,
+        "day": null,
+        "month": null,
+        "year": null,
+        "hour": null,
+        "minute": null,
+        "depends_on": "Kuba wysyła dokumentację API"
+      },
+      "deadline_iso": "2026-02-27T22:58:38.127563",
+      "confidence": 1.0
+    },
+    {
+      "task": "Karolina przygotowuje opis funkcjonalności do landing page",
+      "assignee": "Karolina",
+      "deadline": {
+        "type": "weekday",
+        "weekday": 0,
+        "days": null,
+        "day": null,
+        "month": null,
+        "year": null,
+        "hour": 12,
+        "minute": 0,
+        "depends_on": null
+      },
+      "deadline_iso": "2026-03-02T12:00:00",
+      "confidence": 1.0
+    }
+  ]
+}

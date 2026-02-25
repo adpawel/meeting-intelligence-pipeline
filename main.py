@@ -18,6 +18,9 @@ def main():
     
     actions = assistant.extract_action_items(transcript)
     print(actions)
+    
+    actions = assistant.normalize_deadlines(actions)
+    print(actions)
 
 if __name__ == "__main__":
     main()
